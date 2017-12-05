@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anubhav Chaturvedi</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<style type="text/css">
+		.panel{
+			padding: 10px;
+			background-color: #868e96;
+				margin: 15px;
+		}
+		.jumbotron {
+			background: #358CCE;
+			color: #FFF;
+			border-radius: 0px;
+			}
+			.jumbotron-sm { padding-top: 24px;
+			padding-bottom: 24px; }
+			.jumbotron small {
+			color: #FFF;
+			}
+			.h1 small {
+			font-size: 24px;
+			}
+		.social{
+			display: inline-block;
+			padding-right: 130px;
+			padding-left: 130px; 
+		}
+		.social-div{
+			color: #868e96;
+		}
+		.fa{
+			color: #868e96;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Anubhav Chaturvedi</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">About Me</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Tutorials
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="tutorials.html">C</a>
+	          <a class="dropdown-item" href="tutorials.html">Cplusplus</a>
+	          <a class="dropdown-item" href="tutorials.html">Big Data</a>
+	          <a class="dropdown-item" href="tutorials.html">Machine Learning</a>
+	          <a class="dropdown-item" href="tutorials.html">Linux</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="tutorials.html">Embedded Engineering</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html">Contact Me</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="jumbotron jumbotron-sm">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-12 col-lg-12">
+	                <h1 class="h1">
+	                    Contact me <small>Feel free to contact me</small></h1>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-8">
+	            <div class="well well-sm">
+	                <form>
+	                <div class="row">
+	                    <div class="col-md-6">
+	                        <div class="form-group">
+	                            <label for="name">
+	                                Name</label>
+	                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+	                        </div>
+	                        <div class="form-group">
+	                            <label for="email">
+	                                Email Address</label>
+	                            <div class="input-group">
+	                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+	                                </span>
+	                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+	                        </div>
+	                        <div class="form-group">
+	                            <label for="subject">
+	                                Subject</label>
+	                            <select id="subject" name="subject" class="form-control" required="required">
+	                                <option value="na" selected="">Choose One:</option>
+	                                <option value="service">Service</option>
+	                                <option value="suggestions">Suggestions</option>
+	                                <option value="product">Application</option>
+	                            </select>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-6">
+	                        <div class="form-group">
+	                            <label for="name">
+	                                Message</label>
+	                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+	                                placeholder="Message"></textarea>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-12">
+	                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+	                            Send Message</button>
+	                    </div>
+	                </div>
+	                </form>
+	            </div>
+	        </div>
+	        <div class="col-md-4">
+	            <form>
+	            <legend><span class="glyphicon glyphicon-globe"></span> My Address</legend>
+	            <address>
+	                <strong>Twitter, Inc.</strong><br>
+	                795 Folsom Ave, Suite 600<br>
+	                San Francisco, CA 94107<br>
+	                <abbr title="Phone">
+	                    Ph:</abbr>
+	                (123) 456-7890
+	            </address>
+	            <address>
+	                <strong>Anubhav Chaturvedi</strong><br>
+	                <a href="mailto:#">acanubhav@gmail.com</a>
+	            </address>
+	            </form>
+	        </div>
+	    </div>
+	</div>
+	<div class="container social-div">
+      <h3> Around the Web </h3> 
+      <ul class="social-list">  
+		<a class ="social" href="https://in.linkedin.com/in/anubhav-chaturvedi-a7465a72"> <i class="fa fa-linkedin-square fa-4x"></i></a>
+		<a class ="social" href="#"> <i class="fa fa-twitter-square fa-4x"></i></a>
+		<a class ="social" href="#"> <i class="fa fa-facebook-square fa-4x"></i></a>  
+        </ul>
+    </div>
+	<div class="panel panel-default">		
+	  <div class="panel-body text-center">Anubhav Chaturvedi © 2017. All Rights Reversed</div>
+	</div>
+</body>
+</html>
